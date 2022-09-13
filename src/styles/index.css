@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: "Metropolis Regular";
+  src: local("Metropolis"), url("./fonts/metropolis-regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Metropolis Medium";
+  src: local("Metropolis"), url("./fonts/metropolis-medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Metropolis Bold";
+  src: local("Metropolis"), url("./fonts/metropolis-bold.otf") format("opentype");
+}
+
+.nav-pills{
+  font-family: 'Metropolis Medium' !important;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link{
+  color: white !important;
+  background-color: red !important;
+}
+
+.nav-pills .nav-link{
+  color: black !important;
+}
+
+.nav-pills .nav-link.role-customer{
+  border-radius: 7px 0 0 7px !important;
+}
+
+.nav-pills .nav-link.role-seller {
+  border-radius: 0 7px 7px 0 !important;
+}
