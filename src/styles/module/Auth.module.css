@@ -1,0 +1,110 @@
+.container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Metropolis Regular';
+    
+}
+
+img{
+    width: 175px;
+    height: 175px;
+}
+
+.container h1{
+    font-family: 'Metropolis Bold';
+    color: #DB3022;
+    margin: 0;
+}
+
+.container h4{
+    font-family: 'Metropolis Bold';
+    margin: 0;
+}
+
+.container h5{
+    font-family: 'Metropolis Medium';
+    margin: 0;
+}
+
+.container ul{
+    border-radius: 10px;
+    border-color: #DB3022 !important;
+    width: 25vw;
+}
+
+.container ul>li{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.container a {
+    color: #DB3022;
+    text-decoration: none;
+}
+
+.login__form{
+    width: 25vw;
+    margin-bottom: 1rem;
+}
+
+.login__form input {
+    border-color: #DB3022;
+}
+
+.login__form button, 
+.login__form button:active, 
+.login__form button:focus, 
+.login__form button:hover{
+    background-color: #DB3022 !important;
+    color: white !important;
+    border-radius: 150px;
+}
+
+/* MEDIA QUERIES BREAKPOINTS */
+/* Phone breakpoints */
+@media only screen and (max-width: 575px) {
+    img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .container ul {
+        width: 75vw;
+    }
+
+    .login__form {
+        width: 75vw;
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .login__form input {
+        font-size: 1rem;
+    }
+}
+
+/* Tablet breakpoints */
+@media only screen and ((min-width: 576px) and (max-width: 1024px)) {
+    .login__form {
+        width: 50vw;
+    }
+    .container ul {
+        width: 50vw;
+    }
+
+}
+
+/* Laptop breakpoints */
+@media only screen and ((min-width: 1025px) and (max-width: 1440px)) {
+    .login__form {
+        width: 30vw;
+    }
+
+    .container ul {
+        width: 30vw;
+    }
+}
