@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 /* eslint-disable no-unused-vars */
 import React, { useState } from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
@@ -52,7 +53,7 @@ function Navbar() {
           </div>
         </div>
       </div>
-      <div className={styles.nav__mobile}>
+      {/* <div className={styles.nav__mobile}>
         <div className="row w-100 h-100 py-1">
           <div className="col-3 h-100 d-flex justify-content-center align-items-center">
             <NavLink to="/">
@@ -96,7 +97,7 @@ function Navbar() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 }
