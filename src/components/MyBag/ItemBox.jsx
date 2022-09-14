@@ -35,7 +35,7 @@ function ItemBox({ data: { image, title, brand } }) {
           <div className="col-md-6">
             <div className="row">
               <div className="col-md-4 d-flex justify-content-center">
-                <Image data={{ image, alt: 'first-item' }} />
+                <Image data={{ image, alt: 'item' }} />
               </div>
               <div className={`col-md-8  ${styles.myBag__itemDescription}`}>
                 <h5>{title}</h5>

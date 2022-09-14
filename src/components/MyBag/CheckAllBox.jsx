@@ -6,7 +6,7 @@ function CheckAllBox() {
     <div className={`card mb-5 ${styles.myBag__itemCheckAll}`}>
       <div className="card-body ">
         <div className="row d-flex align-items-center">
-          <div className="col-1 col-md-1">
+          <div className="col-md-1">
             <input type="checkbox" name="select-all" id="all-item-checkbox" className="form-check-input" checked />
           </div>
           <div className="col-md-8">

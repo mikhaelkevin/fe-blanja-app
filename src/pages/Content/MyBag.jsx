@@ -15,7 +15,12 @@ function MyBag() {
             <CheckAllBox />
             <ItemsList />
           </div>
-          <SummaryBox />
+          <SummaryBox buttonText="Submit">
+            <div className="row mb-5">
+              <div className="col-6 text-muted">Total price</div>
+              <div className="col-6 text-end">$ 40.0</div>
+            </div>
+          </SummaryBox>
         </div>
       </div>
     </div>
