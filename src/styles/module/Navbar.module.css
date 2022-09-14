@@ -43,69 +43,23 @@
 /* MEDIA QUERIES BREAKPOINTS */
 /* Phone breakpoints */
 @media only screen and (max-width: 575px) {
-    .nav__desktop{
-        display: none;
-    }
 
-    .nav__mobile{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 10vh;
-        width: 100%;
-        font-family: 'Metropolis Medium';
-        box-shadow: 0px 13px 9px 4px rgba(0, 0, 0, 0.1);
-        -webkit-box-shadow: 0px 13px 9px 4px rgba(0, 0, 0, 0.1);
-        -moz-box-shadow: 0px 13px 9px 4px rgba(0, 0, 0, 0.1);
-        position: relative;
-    }
-    
-    .nav__mobile img{
-        width: 100%;
-        height: 100%;
-    }
-
-    .nav__mobile a{
-        text-decoration: none;
-    }
-
-    .mobile__avatar button{
-        padding: 0;
-    }
-
-    .mobile__avatar img{
-        width: 100%;
-        height: 100%;
-        border-radius: 50%;
-    }
-
-    .mobile__search img{
-        width: 150%;
-        height: 150%;
-    }
-
-    .mobile__search button {
-        border: none;
-    }
-    
-    .mobile__myBag img{
-        width: 140%;
-        height: 140%;
-    }
-
-    .mobile__searchModal button img{
-        width: 30px;
-        height: 30px;
-    }
-
-    .mobile__searchModal button{
-        padding: 0;
-    }
 }
 
 /* Tablet breakpoints */
 @media only screen and ((min-width: 576px) and (max-width: 1024px)) {
-    
+    .nav__desktop {
+        height: 10vh;
+    }
+
+    .nav__desktop img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .nav__desktop form input[type=search] {
+        font-size: 1.2rem !important;
+    }
 
 }
 

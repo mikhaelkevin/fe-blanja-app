@@ -3,7 +3,7 @@ import styles from '../../styles/module/MyBag.module.css';
 
 function SummaryBox() {
   return (
-    <div className="col-md-12 col-xxl-4">
+    <div className="col-md-12 col-xl-4">
       <div className={`card ${styles.myBag__summary}`}>
         <div className="card-body">
           <form>

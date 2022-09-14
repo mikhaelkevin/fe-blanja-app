@@ -1,12 +1,12 @@
 import React from 'react';
 
-import styles from '../../styles/module/Navbar.module.css';
+import styles from '../../../styles/module/Navbar.module.css';
 
-import Image from '../Global/Image';
+import Image from '../Image';
 
-import notificationIcon from '../../assets/notification.svg';
-import chatIcon from '../../assets/mail.svg';
-import avatar from '../../assets/avatar.svg';
+import notificationIcon from '../../../assets/notification.svg';
+import chatIcon from '../../../assets/mail.svg';
+import avatar from '../../../assets/avatar.svg';
 
 function WithAuthMenu() {
   return (
