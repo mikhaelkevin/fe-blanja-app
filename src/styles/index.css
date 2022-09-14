@@ -14,17 +14,17 @@ code {
 
 @font-face {
   font-family: "Metropolis Regular";
-  src: local("Metropolis"), url("./fonts/metropolis-regular.otf") format("opentype");
+  src: local("metropolis-regular"), url("./fonts/metropolis-regular.otf") format("opentype");
 }
 
 @font-face {
   font-family: "Metropolis Medium";
-  src: local("Metropolis"), url("./fonts/metropolis-medium.otf") format("opentype");
+  src: local("metropolis-medium"), url("./fonts/metropolis-medium.otf") format("opentype");
 }
 
 @font-face {
   font-family: "Metropolis Bold";
-  src: local("Metropolis"), url("./fonts/metropolis-bold.otf") format("opentype");
+  src: local("metropolis-bold"), url("./fonts/metropolis-bold.otf") format("opentype");
 }
 
 .nav-pills{

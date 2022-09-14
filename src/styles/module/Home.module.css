@@ -1,4 +1,5 @@
 .container{
     min-height: 100vh;
     height: inherit;
+    background-color: #E5E5E5;
 }
