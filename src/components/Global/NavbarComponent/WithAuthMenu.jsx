@@ -32,7 +32,7 @@ function WithAuthMenu() {
           <Image data={{ image: avatar, alt: 'avatar-icon' }} />
         </button>
         <ul className="dropdown-menu">
-          <li><a href="/login" className="dropdown-item">My Profile</a></li>
+          <li><a href="/profile" className="dropdown-item">My Profile</a></li>
           <hr />
           <li><a href="/login" className="dropdown-item">Logout</a></li>
         </ul>
