@@ -1,0 +1,74 @@
+.layouts{
+    min-height: max-content;
+    height: inherit;
+    padding: 2rem 0;
+    font-family: 'Metropolis Medium';
+}
+
+.layouts h1{
+    font-family: 'Metropolis Bold';
+}
+
+.layouts .myBag__content{
+    margin-top: 2rem;
+}
+
+.layouts .myBag__content input[type=checkbox]:checked{
+    background-color: #DB3022 !important;
+    border: none;
+    outline: none !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.myBag__summary{
+    border: none !important;
+    box-shadow: 0px 0px 14px 2px rgba(0, 0, 0, 0.21);
+    -webkit-box-shadow: 0px 0px 14px 2px rgba(0, 0, 0, 0.21);
+    -moz-box-shadow: 0px 0px 14px 2px rgba(0, 0, 0, 0.21);
+}
+
+.myBag__summary button{
+    background-color: #DB3022;
+    color: white;
+}
+
+.myBag__itemCheckAll{
+    border: none !important;
+    box-shadow: 0px 0px 14px 2px rgba(0, 0, 0, 0.21);
+    -webkit-box-shadow: 0px 0px 14px 2px rgba(0, 0, 0, 0.21);
+    -moz-box-shadow: 0px 0px 14px 2px rgba(0, 0, 0, 0.21);
+}
+
+.myBag__itemCheckAll h5{
+    margin: 0;
+}
+
+.myBag__item img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.myBag__item{
+    box-shadow: 0px 0px 14px 2px rgba(0, 0, 0, 0.21);
+    -webkit-box-shadow: 0px 0px 14px 2px rgba(0, 0, 0, 0.21);
+    -moz-box-shadow: 0px 0px 14px 2px rgba(0, 0, 0, 0.21);
+}
+
+.myBag__itemDescription{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
