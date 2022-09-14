@@ -13,7 +13,6 @@ function CheckoutItemsList() {
           brand: 'Zalora Cloth',
           price: '20',
         }}
-        g
       />
       <CheckoutItem data={{
         image: secondItem,
