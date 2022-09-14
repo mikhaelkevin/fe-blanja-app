@@ -1,8 +1,9 @@
 .layouts{
-    min-height: max-content;
+    min-height: 90vh;
     height: inherit;
     padding: 2rem 0;
     font-family: 'Metropolis Medium';
+    background-color: #E5E5E5;;
 }
 
 .layouts h1{
@@ -39,6 +40,11 @@ input[type=number] {
 .myBag__summary button{
     background-color: #DB3022;
     color: white;
+}
+
+.myBag__summary button:active,.myBag__summary button:hover  {
+    background-color: #DB3022 !important;
+    color: white !important;
 }
 
 .myBag__content .myBag__summary form h5 {

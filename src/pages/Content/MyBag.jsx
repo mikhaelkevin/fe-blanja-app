@@ -7,8 +7,8 @@ import ItemsList from '../../components/MyBag/ItemsList';
 
 function MyBag() {
   return (
-    <div className="container">
-      <div className={styles.layouts}>
+    <div className={styles.layouts}>
+      <div className="container">
         <h1>My Cart</h1>
         <div className={`row ${styles.myBag__content}`}>
           <div className="col-md-12 col-xl-8 mb-4">
