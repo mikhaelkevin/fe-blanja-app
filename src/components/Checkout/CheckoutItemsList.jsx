@@ -6,13 +6,14 @@ import secondItem from '../../assets/item-2.svg';
 function CheckoutItemsList() {
   return (
     <>
-      <CheckoutItem data={{
-        image: firstItem,
-        title: "Men's formal suit - Black",
-        brand: 'Zalora Cloth',
-        price: '20',
-      }}
-
+      <CheckoutItem
+        data={{
+          image: firstItem,
+          title: "Men's formal suit - Black",
+          brand: 'Zalora Cloth',
+          price: '20',
+        }}
+        g
       />
       <CheckoutItem data={{
         image: secondItem,
