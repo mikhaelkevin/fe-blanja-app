@@ -30,7 +30,7 @@ function ItemBox({ data: { image, title, brand } }) {
       <div className="card-body">
         <div className="row d-flex align-items-center ">
           <div className="col-1 col-md-1 ">
-            <input type="checkbox" name="select-all" id="all-item-checkbox" className="form-check-input" checked />
+            <input type="checkbox" name="select-all" id="all-item-checkbox" className="form-check-input" defaultChecked />
           </div>
           <div className="col-md-6">
             <div className="row">

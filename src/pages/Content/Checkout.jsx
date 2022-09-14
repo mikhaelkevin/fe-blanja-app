@@ -21,18 +21,20 @@ function Checkout() {
             <CheckoutItemsList />
           </div>
           <SummaryBox buttonText="Select payment">
-            <div className="row mb-3">
-              <div className="col-6 text-muted">Order</div>
-              <div className="col-6 text-end">$ 40.0</div>
-            </div>
-            <div className="row mb-3">
-              <div className="col-6 text-muted">Delivery</div>
-              <div className="col-6 text-end">$ 5.0</div>
-            </div>
-            <hr />
-            <div className="row mb-5">
-              <div className="col-6 text-muted">Total price</div>
-              <div className="col-6 text-end">$ 45.0</div>
+            <div>
+              <div className="row mb-3">
+                <div className="col-6 text-muted">Order</div>
+                <div className="col-6 text-end">$ 40.0</div>
+              </div>
+              <div className="row mb-3">
+                <div className="col-6 text-muted">Delivery</div>
+                <div className="col-6 text-end">$ 5.0</div>
+              </div>
+              <hr />
+              <div className="row mb-5">
+                <div className="col-6 text-muted">Total price</div>
+                <div className="col-6 text-end">$ 45.0</div>
+              </div>
             </div>
           </SummaryBox>
         </div>

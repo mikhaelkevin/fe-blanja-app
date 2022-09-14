@@ -7,7 +7,7 @@ function CheckAllBox() {
       <div className="card-body ">
         <div className="row d-flex align-items-center">
           <div className="col-md-1">
-            <input type="checkbox" name="select-all" id="all-item-checkbox" className="form-check-input" checked />
+            <input type="checkbox" name="select-all" id="all-item-checkbox" className="form-check-input" defaultChecked />
           </div>
           <div className="col-md-8">
             <h5>
