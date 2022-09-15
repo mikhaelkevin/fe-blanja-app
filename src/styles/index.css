@@ -48,3 +48,13 @@ code {
 .nav-pills .nav-link.role-seller {
   border-radius: 0 7px 7px 0 !important;
 }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}

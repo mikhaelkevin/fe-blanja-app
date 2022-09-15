@@ -1,8 +1,9 @@
 .layouts{
-    min-height: max-content;
+    min-height: 90vh;
     height: inherit;
     padding: 2rem 0;
     font-family: 'Metropolis Medium';
+    background-color: #E5E5E5;;
 }
 
 .layouts h1{
@@ -19,16 +20,6 @@
     outline: none !important;
 }
 
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-}
-
-input[type=number] {
-    -moz-appearance: textfield;
-}
-
 .myBag__summary{
     border: none !important;
     box-shadow: 0px 0px 14px 2px rgba(0, 0, 0, 0.21);
@@ -39,6 +30,15 @@ input[type=number] {
 .myBag__summary button{
     background-color: #DB3022;
     color: white;
+}
+
+.myBag__summary button:active,.myBag__summary button:hover  {
+    background-color: #DB3022 !important;
+    color: white !important;
+}
+
+.myBag__content .myBag__summary form h5 {
+    font-family: 'Metropolis Bold' !important;
 }
 
 .myBag__itemCheckAll{

@@ -30,12 +30,12 @@ function ItemBox({ data: { image, title, brand } }) {
       <div className="card-body">
         <div className="row d-flex align-items-center ">
           <div className="col-1 col-md-1 ">
-            <input type="checkbox" name="select-all" id="all-item-checkbox" className="form-check-input" checked />
+            <input type="checkbox" name="select-all" id="all-item-checkbox" className="form-check-input" defaultChecked />
           </div>
           <div className="col-md-6">
             <div className="row">
               <div className="col-md-4 d-flex justify-content-center">
-                <Image data={{ image, alt: 'first-item' }} />
+                <Image data={{ image, alt: 'item' }} />
               </div>
               <div className={`col-md-8  ${styles.myBag__itemDescription}`}>
                 <h5>{title}</h5>

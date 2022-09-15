@@ -1,6 +1,4 @@
-/* eslint-disable max-len */
-/* eslint-disable no-unused-vars */
-import React, { useState } from 'react';
+import React from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
 import styles from '../../styles/module/Navbar.module.css';
 
@@ -9,8 +7,8 @@ import logo from '../../assets/tuku_logo.svg';
 import filterIcon from '../../assets/filter.svg';
 import cartIcon from '../../assets/cart.svg';
 
-import NoAuthMenu from '../Navbar/NoAuthMenu';
-import WithAuthMenu from '../Navbar/WithAuthMenu';
+import NoAuthMenu from './NavbarComponent/NoAuthMenu';
+import WithAuthMenu from './NavbarComponent/WithAuthMenu';
 
 function Navbar() {
   const token = true;

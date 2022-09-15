@@ -1,12 +1,12 @@
 import React from 'react';
 
-import styles from '../../styles/module/Navbar.module.css';
+import styles from '../../../styles/module/Navbar.module.css';
 
-import Image from '../Global/Image';
+import Image from '../Image';
 
-import notificationIcon from '../../assets/notification.svg';
-import chatIcon from '../../assets/mail.svg';
-import avatar from '../../assets/avatar.svg';
+import notificationIcon from '../../../assets/notification.svg';
+import chatIcon from '../../../assets/mail.svg';
+import avatar from '../../../assets/avatar.svg';
 
 function WithAuthMenu() {
   return (
@@ -32,7 +32,7 @@ function WithAuthMenu() {
           <Image data={{ image: avatar, alt: 'avatar-icon' }} />
         </button>
         <ul className="dropdown-menu">
-          <li><a href="/login" className="dropdown-item">My Profile</a></li>
+          <li><a href="/profile" className="dropdown-item">My Profile</a></li>
           <hr />
           <li><a href="/login" className="dropdown-item">Logout</a></li>
         </ul>

@@ -1,23 +1,28 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
+import PropTypes from 'prop-types';
 import styles from '../../styles/module/MyBag.module.css';
 
-function SummaryBox() {
+function SummaryBox({ children, buttonText }) {
+  const navigate = useNavigate();
   return (
-    <div className="col-md-12 col-xxl-4">
+    <div className="col-md-12 col-xl-4">
       <div className={`card ${styles.myBag__summary}`}>
         <div className="card-body">
-          <form>
+          <form onSubmit={() => navigate('/checkout')}>
             <h5 className="mb-4">Shopping Summary</h5>
-            <div className="row mb-5">
-              <div className="col-6 text-muted">Total price</div>
-              <div className="col-6 text-end">$ 40.0</div>
-            </div>
-            <button type="submit" className="btn btn-lg w-100 rounded-pill">Submit</button>
+            {children}
+            <button type="submit" className="btn btn-lg w-100 rounded-pill">{buttonText}</button>
           </form>
         </div>
       </div>
     </div>
   );
 }
+
+SummaryBox.propTypes = {
+  children: PropTypes.element.isRequired,
+  buttonText: PropTypes.string.isRequired,
+};
 
 export default SummaryBox;

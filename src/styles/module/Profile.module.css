@@ -1,0 +1,175 @@
+.layouts{
+    min-height: 100vh;
+    font-family: 'Metropolis Medium';
+    background-color: #E5E5E5;
+}
+
+.profile__sideBar{
+    background-color: white;
+    padding-top: 2rem;
+}
+
+.profile__sideBar img{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+
+.profile__tabContent{
+    min-height: 100vh;
+}
+
+.profile__menuAccount{
+    width: 100%;
+}
+
+.profile__content .profile__menuAccount .profile__uploadAvatar img{
+    width: 40%;
+    height: 40%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+
+.profile__content .profile__menuAccount .profile__uploadAvatar button {
+    width: 50%;
+}
+
+.profile__menuAccount span{
+    font-size: 20px;
+}
+
+.profile__inputBoxLabel, .profile__inputRadio {
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.profile__address {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 2rem 2rem 2rem;
+}
+
+.profile__address .profile__newAddress{
+    margin-bottom: 1rem;
+}
+
+.profile__address .profile__newAddress button {
+    border-style: dashed;
+    border-width: 2px;
+    border-color: #E5E5E5;
+    padding: 3rem;
+    color: #E5E5E5;
+}
+
+.profile__address .profile__newAddress button:hover {
+    border-style: dashed;
+    border-width: 2px;
+    border-color: #E5E5E5;
+    color: #E5E5E5;
+}
+
+.profile__address .profile__newAddress button:active{
+    border-style: dashed;
+    border-width: 2px;
+    border-color: black;
+    color: black;
+}
+
+.profile__myOrderTabContent{
+    min-height: 50vh;
+}
+
+.profile__productForm{
+    width: 100%;
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile__formCard{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.profile__formCard h4, .profile__formCard h5  {
+    margin: 0;
+}
+
+.profile__formCard h5{
+    color: #9B9B9B;
+}
+
+.profile__formCard label{
+    width: 50%;
+}
+
+.profile__productGoodsPic{
+    border-style: dashed !important;
+    border-width: 2px !important;
+    border-color: #E5E5E5 !important;
+    padding: 2rem 1rem !important;
+}
+
+.profile__productGoodsPic hr {
+    color: black !important;
+}
+
+.profile__productGoodsPic img {
+    width: 100%;
+    height: 50%;
+}
+
+.profile__productGoodsPic .profile__goodsItemPic{
+    background-color: #D4D4D4;
+}
+
+
+/* MEDIA QUERIES BREAKPOINTS */
+/* Phone breakpoints */
+
+/* Tablet breakpoints */
+@media only screen and ((min-width: 576px) and (max-width: 1024px)) {
+    .profile__sideBar img {
+        width: 70%;
+    }
+
+    .profile__sideBar h5,
+    .profile__sideBar span{
+        text-align: center;
+    }
+
+    .profile__sideBar__avatar{
+        margin-bottom: 1rem;
+    }
+
+    .profile__sideBar__avatarDetail{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .profile__inputBoxLabel, .profile__inputRadio {
+        justify-content: flex-start !important;
+    }
+
+    .profile__content .profile__menuAccount .profile__uploadAvatar img {
+        width: 70%;
+        height: 70%;
+    }
+
+    .profile__content .profile__menuAccount .profile__uploadAvatar button{
+        width: 100%;
+    }
+
+    .profile__formCard label {
+        width: 75%;
+    }
+    
+}
+
+/* Laptop breakpoints */
+@media only screen and ((min-width: 1025px) and (max-width: 1440px)) {
+    
+}
