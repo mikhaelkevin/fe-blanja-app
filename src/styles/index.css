@@ -58,3 +58,8 @@ input::-webkit-inner-spin-button {
 input[type=number] {
   -moz-appearance: textfield;
 }
+
+.swiper{
+  height: 100%;
+  padding: 1rem 0 !important;
+}
