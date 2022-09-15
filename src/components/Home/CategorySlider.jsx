@@ -23,7 +23,7 @@ function CategorySlider() {
     <Swiper
       modules={[Navigation, Pagination, Scrollbar, A11y]}
       loop
-      spaceBetween={20}
+      spaceBetween={10}
       slidesPerView={5}
       navigation
     >

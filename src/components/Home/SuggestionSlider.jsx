@@ -21,9 +21,10 @@ function SuggestionSlider() {
       modules={[Navigation, Pagination, Scrollbar, A11y]}
       loop
       autoplay={{ delay: 2000 }}
-      spaceBetween={40}
+      spaceBetween={10}
       slidesPerView={2}
       navigation
+      className="px-5"
     >
       <SwiperSlide>
         <h2>Yellow Edition</h2>
