@@ -7,24 +7,24 @@ function ItemDetailsCard() {
       <div className="row">
 
         <div className="input-group col-12 mb-3">
-          <label htmlFor="inventory">
+          <label htmlFor="unit-price">
             <h5>Unit price</h5>
-            <input type="number" name="inventory" id="inventory" className="form-control form-control-lg " />
+            <input type="number" name="unit-price" id="unit-price" className="form-control form-control-lg " />
           </label>
         </div>
 
         <div className="col-12">
-          <label htmlFor="inventory">
+          <label htmlFor="stock">
             <h5>Stock</h5>
             <div className="input-group col-12 mb-3">
-              <input type="number" name="inventory" id="inventory" className="form-control form-control-lg border-end-0" aria-label="Recipient's username" aria-describedby="basic-addon2" />
+              <input type="number" name="stock" id="stock" className="form-control form-control-lg border-end-0" aria-label="Recipient's username" aria-describedby="basic-addon2" />
               <span className="input-group-text bg-white border-start-0" id="basic-addon2">Buah</span>
             </div>
           </label>
         </div>
 
         <div className="col-12 mb-3">
-          <label htmlFor="inventory">
+          <label htmlFor="inlineRadioOptions">
             <h5>Condition</h5>
             <div className="row mt-2">
               <div className="col-3">
