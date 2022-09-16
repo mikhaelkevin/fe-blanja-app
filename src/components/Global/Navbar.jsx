@@ -11,7 +11,7 @@ import NoAuthMenu from './NavbarComponent/NoAuthMenu';
 import WithAuthMenu from './NavbarComponent/WithAuthMenu';
 
 function Navbar() {
-  const token = false;
+  const token = true;
   const navigate = useNavigate();
 
   return (
