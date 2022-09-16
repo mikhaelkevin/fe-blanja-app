@@ -1,0 +1,166 @@
+.layouts {
+    min-height: 100vh;
+    padding: 2rem 0;
+    font-family: 'Metropolis Regular';
+}
+
+.layouts .detailProd__navBread nav{
+    margin-bottom: 3rem;
+    --bs-breadcrumb-divider: '>';
+}
+
+.layouts .detailProd__navBread ol>li a{
+    text-decoration: none;
+    color: gray;
+}
+
+.layouts .detailProd__productVisual .detailProd__productImage{
+    height: 50vh;
+    width: 100%;
+    padding: 0 !important;
+}
+
+.layouts .detailProd__productVisual .detailProd__productImage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 3%;
+}
+
+.detailProd__productVisual .detailProd__productImage button:active, 
+.detailProd__productVisual .detailProd__productImage button:focus,
+.detailProd__productVisual .detailProd__productImage button {
+    background-color: none !important;
+    border: 0 !important;
+    outline: none !important;
+}
+
+.detailProd__productOrderMenu{
+    height: 100%;
+}
+
+.detailProd__productOrderMenu h3, .detailProd__productDescriptionSection h3{
+    font-family: 'Metropolis Bold' !important;
+}
+
+.detailProd__productOrderMenu .detailProd__prodRating {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 10%;
+    width: 100%;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+}
+
+.detailProd__productOrderMenu .detailProd__prodRating img{
+    width: 20% !important;
+    height: 100% !important;
+}
+
+.detailProd__prodPrice{
+    margin-bottom: 1rem;
+}
+
+.detailProd__prodColor img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.detailProd__prodColor img:hover {
+    outline: 2px solid #DB3022;
+    padding: 2px;
+}
+
+.detailProd__prodSize img{
+    width: 100%;
+    height: 100%;
+}
+
+.detailProd__productDescriptionSection h1,.detailProd__suggestionSection h1{
+    font-family: 'Metropolis Bold';
+    margin-bottom: 2rem;
+}
+
+.prodDescription__condition, 
+.prodDescription__information, 
+.detailProd__productDescriptionSection, 
+.detailProd__prodSize, 
+.detailProd__prodColor, 
+.detailProd__productOrderSection{
+    margin-bottom: 2rem;
+}
+
+.detailProd__suggestionItems img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 0 !important;
+}
+
+.detailProd__productReviewSection {
+    height: 30vh;
+}
+
+.productReviewSection__starRating {
+    height: 80%;
+}
+
+.productReviewSection__starRating h1{
+    font-size: 5rem !important;
+}
+.productReviewSection__starRating h1 > span {
+    font-size: 2rem;
+}
+
+.productReviewSection__starRating img {
+    height: 100%;
+    width: 100%;
+}
+
+.starRating__leftSide{
+    padding-top: 3rem;
+}
+
+.starRating__rightSide img {
+    height: 50%;
+    width: 50%;
+}
+
+.starRating__rightSide span{
+    font-size: 20px;
+}
+
+/* MEDIA QUERIES BREAKPOINTS */
+/* Tablet breakpoints */
+@media only screen and ((min-width: 576px) and (max-width: 1024px)) {
+    .detailProd__productOrderSection {
+        margin-bottom: 4rem;
+    }
+
+    .productReviewSection__starRating h1 {
+        font-size: 4rem !important;
+    }
+
+    .starRating__leftSide {
+        padding-top: 4rem;
+    }
+
+    .productReviewSection__starRating .starRating__rightSide img {
+        height: 60%;
+        width: 60%;
+    }
+}
+
+/* Laptop breakpoints */
+@media only screen and ((min-width: 1025px) and (max-width: 1440px)) {
+    .detailProd__productOrderSection {
+        margin-bottom: 3rem;
+    }
+
+    .productReviewSection__starRating .starRating__rightSide {
+        margin-left: 1rem;
+    }
+}

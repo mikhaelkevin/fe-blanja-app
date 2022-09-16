@@ -5,7 +5,7 @@ function NoAuthMenu() {
   return (
     <>
       <NavLink to="/login">
-        <button className="btn btn-lg border rounded-pill" type="button">Login</button>
+        <button className="btn btn-lg border btn-danger border-0 rounded-pill" type="button">Login</button>
       </NavLink>
       <NavLink to="/register">
         <button className="btn btn-lg border rounded-pill" type="button">Signup</button>

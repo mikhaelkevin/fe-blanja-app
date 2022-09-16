@@ -37,6 +37,12 @@ code {
   background-color: red !important;
 }
 
+.nav-pills.detail__product .nav-link.active,
+.nav-pills.detail__product .show>.nav-link {
+  color: white !important;
+  background-color: transparent !important;
+}
+
 .nav-pills .nav-link{
   color: black !important;
 }
