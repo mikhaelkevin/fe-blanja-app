@@ -1,70 +1,200 @@
-# Getting Started with Create React App
+<div id="top"></div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="">
+    <img src="https://res.cloudinary.com/nocturncloud/image/upload/v1663292121/blanja-app/tuku_logo_vrgntb.svg" alt="Logo" width="200px">
+  </a>
 
-## Available Scripts
+  <p align="center">
+    <a href="https://fe-blanja-app.vercel.app/">View Demo</a>
+    ·
+    <a href="https://github.com/mikhaelkevin/fe-blanja-app/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/mikhaelkevin/fe-blanja-app/issues">Request Feature</a>
+  </p>
+</div>
 
-In the project directory, you can run:
+<!-- TABLE OF CONTENTS -->
 
-### `npm start`
+## Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#screenshoots">Screenshots</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#related-project">Related Project</a></li>
+    <li><a href="#our-team">Contact</a></li>
+    <li><a href="#license">License</a></li>
+  </ol>
+</details>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<!-- ABOUT THE PROJECT -->
 
-### `npm test`
+## About The Project
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Tuku** is a e-commerce project which only contains frontend content. In this project there's bunch of navigation that already works, which is:
 
-### `npm run build`
+- Role Picker (Login & Register)
+- Suggestion & Category Slider Pagination
+- New and popular items navigation to detail product
+- Dynamic qty when buying products
+- Submitting cart items to checkout page
+- User profile with menu panel
+- etc
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Built With
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This app was built with some technologies below:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [Javascript](https://www.javascript.com/)
+- [React](https://reactjs.org/)
 
-### `npm run eject`
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<!-- GETTING STARTED -->
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Getting Started
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Prerequisites
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Before going to the installation stage there are some software that must be installed first.
 
-## Learn More
+- [NodeJs](https://nodejs.org/en/download/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Installation
 
-### Code Splitting
+If you want to run this project locally, don't mind to fork/clone the repo.
+I suggest you to follow the guide bellow:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Clone the repo
 
-### Analyzing the Bundle Size
+```
+https://github.com/mikhaelkevin/fe-blanja-app.git
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Go To Folder Repo
 
-### Making a Progressive Web App
+```
+cd fe-blanja-app
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Install Module
 
-### Advanced Configuration
+```
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Type ` npm run start` to run the project.
 
-### Deployment
+## Screenshots
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<p align="center" display=flex>
+   
+<table>
+<tr>
+    <td style='text-align: center; background-color: #6661; font-weight: 600'>Login Page</td>
+    <td style='text-align: center; background-color: #6661; font-weight: 600'>Register Page - Customer</td>
+  </tr>
+  <tr>
+    <td><image src="https://res.cloudinary.com/nocturncloud/image/upload/v1663291768/blanja-app/Login_shifsg.png" alt="login" width=100%></td>
+    <td><image src="https://res.cloudinary.com/nocturncloud/image/upload/v1663291768/blanja-app/CustRegister_qu3eg5.png" alt ="register-customer" width=100%/></td>
+  </tr>
+   <tr>
+    <td style='text-align: center; background-color: #6661; font-weight: 600'>Register Page - Seller</td>
+    <td style='text-align: center; background-color: #6661; font-weight: 600'>Homepage</td>
+  </tr>
+  <tr>
+    <td><image src="https://res.cloudinary.com/nocturncloud/image/upload/v1663291769/blanja-app/SellerRegister_hl4jgz.png" alt="register-seller" width=100%></td>
+    <td><image src="https://res.cloudinary.com/nocturncloud/image/upload/v1663291771/blanja-app/homepage_qjwumh.png" alt="homepage" width=100%/></td>
+  </tr>
+  <tr>
+    <td style='text-align: center; background-color: #6661; font-weight: 600'>Detail product</td>
+    <td style='text-align: center; background-color: #6661; font-weight: 600'>My Cart</td>
+  </tr>
+  <tr>
+    <td><image src="https://res.cloudinary.com/nocturncloud/image/upload/v1663291771/blanja-app/detail-page_h2hdkw.png" alt="detail-product" width=100%></td>
+    <td><image src="https://res.cloudinary.com/nocturncloud/image/upload/v1663291769/blanja-app/my_cart_vmdeco.png" alt="my-cart" width=100%/></td>
+  </tr>
+  <tr>
+    <td style='text-align: center; background-color: #6661; font-weight: 600'>Checkout</td>
+    <td style='text-align: center; background-color: #6661; font-weight: 600'>Edit Profile</td>
+  </tr>
+  <tr>
+    <td><image src="https://res.cloudinary.com/nocturncloud/image/upload/v1663291768/blanja-app/checkout_mdc8v9.png" alt="checkout" width=100%></td>
+    <td><image src="https://res.cloudinary.com/nocturncloud/image/upload/v1663291769/blanja-app/my-account_upujeb.png" alt="profile" width=100%></td>
+  </tr>
+  <tr>
+    <td style='text-align: center; background-color: #6661; font-weight: 600'>Change address</td>
+    <td style='text-align: center; background-color: #6661; font-weight: 600'>Register product</td>
+  </tr>
+  <tr>
+    <td><image src="https://res.cloudinary.com/nocturncloud/image/upload/v1663291768/blanja-app/address_i1u7uy.png" alt="change-address" width=100%></td>
+    <td><image src="https://res.cloudinary.com/nocturncloud/image/upload/v1663291769/blanja-app/my-product_r6xyp2.png" alt="register-product" width=100%></td>
+  </tr>
+</table>
+      
+</p>
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-### `npm run build` fails to minify
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b someFeature-features`)
+3. Commit your Changes (`git commit -m 'add(someFeature): what kind of feature'`)
+4. Push to the Branch (`git push origin someFeature-features`)
+5. Open a Pull Request
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Related Project
+
+<center>
+<table> 
+    <tr>
+    <th>Frontend</th>
+    <th>Demo</th>
+    </tr>
+    <tr>
+    <td> 
+    <a href="https://github.com/mikhaelkevin/fe-blanja-app"> 
+    <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" alt="fe-github">
+    <a/>
+    </td>
+    <td> 
+    <a href="https://fe-blanja-app.vercel.app/"> 
+    <img src="https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white" alt="fe-github">
+    <a/>
+    </td>
+    </tr>
+</table>
+</center>
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## License
+
+Distributed under the [MIT](/LICENSE) License.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
