@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import styles from '../../styles/module/Auth.module.css';
 
 import logo from '../../assets/tuku_logo.svg';
@@ -10,7 +11,9 @@ import RegisterMenu from '../../components/Auth/RegisterMenu';
 function Register(props) {
   return (
     <div className={styles.container}>
-      <Image data={{ image: logo, alt: 'logo' }} />
+      <NavLink to="/">
+        <Image data={{ image: logo, alt: 'logo' }} />
+      </NavLink>
       <h4 className="mb-5 text-center">Please input your information</h4>
       <RoleSwitcher />
       <RegisterMenu />
